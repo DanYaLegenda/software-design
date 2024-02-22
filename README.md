@@ -9,12 +9,12 @@
 | script | 0 byte |
 
 script - значение, типо void (как в C++) для определения функции без возвращаемого значение
-``
+```
 script helloWorld() [
   print "Hello World!";
   newline;
 ]
-``
+```
 
 
 
