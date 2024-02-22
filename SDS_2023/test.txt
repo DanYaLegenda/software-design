@@ -1,0 +1,11 @@
+
+
+main
+[
+	new int i = 0001;
+
+
+	print i;
+
+	newline;
+]

@@ -1,0 +1,15 @@
+
+main
+[
+	new int a = 5;
+
+	a = a + 20;
+	new int b = 20;
+	new int c;
+	c = a * c + 10 * b;
+
+	print c;
+
+
+	newline;
+]
