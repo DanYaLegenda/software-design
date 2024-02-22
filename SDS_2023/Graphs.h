@@ -106,7 +106,9 @@
 			FST::RELATION('6', 2), FST::RELATION('7', 2),\
 			FST::RELATION('8', 2), FST::RELATION('9', 2))
 
-#define GRAPH_INT_MINUSLITERAL 1, \
+#define GRAPH_INT_MINUSLITERAL 2, \
+	FST::NODE(1, FST::RELATION('-', 1)), \
+	FST::NODE()
 
 #define GRAPH_V_LITERAL 4, \
     FST::NODE(1, FST::RELATION('q', 1)),\
